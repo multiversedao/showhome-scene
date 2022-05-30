@@ -1,0 +1,21 @@
+{
+  "name": "showhome-scene",
+  "version": "1.0.0",
+  "description": "My new MultiverseDao project",
+  "scripts": {
+    "start": "mdl start",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "deploy:now": "mdl export && now export",
+    "ecs:install": "npm install --save-dev @multiversedao/multiversedao-ecs@latest"
+  },
+  "devDependencies": {
+    "@multiversedao/multiversedao-ecs": "latest"
+  },
+  "dependencies": {
+    "@dcl/ecs-scene-utils": "^1.7.5"
+  },
+  "bundledDependencies": [
+    "@dcl/ecs-scene-utils"
+  ]
+}
