@@ -23,12 +23,20 @@ This scene shows you:
 Download and install the MultiverseDao CLI by running the following command:
 
 ```bash
+npm config set @multiversedao:registry https://npmjs.multiversedao.org/
+```
+
+```bash
 npm install @multiversedao/cli -g
 ```
 
 **Previewing the scene**
 
 Download this example and navigate to its directory, then run:
+
+```
+$:  npm install
+```
 
 ```
 $:  mdl start
